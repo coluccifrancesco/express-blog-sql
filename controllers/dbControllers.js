@@ -8,3 +8,7 @@ function index(req, res){
         res.json(results);
     });
 }
+
+module.exports = {
+    index
+}
