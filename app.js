@@ -6,6 +6,7 @@ const app = express();
 const postsRouter = require('./routes/posts');
 const errorsHandler = require('./middlewares/errorsHandler');
 const notFound = require('./middlewares/notFound');
+const mysql2 = require('mysql2');
 
 app.use(express.static('public'))
 
